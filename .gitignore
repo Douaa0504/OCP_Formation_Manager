@@ -1,0 +1,52 @@
+# ----------------------------------------------------------------
+# OCP Formation Manager - Professional .gitignore
+# ----------------------------------------------------------------
+
+# 1. Flutter/Dart specific
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# 2. Hive & Build Runner (Generated files)
+# On ne pushe jamais le code généré, il doit être recréé localement
+*.g.dart
+*.freezed.dart
+
+# 3. Android Studio / IntelliJ (Android Studio cleanup)
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/assetWizardSettings.xml
+.idea/runConfigurations/
+
+# 4. VS Code (Just in case)
+.vscode/
+
+# 5. OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# 6. Mobile specific artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# 7. Secrets & Environment (Security-First)
+.env
+.local.properties
