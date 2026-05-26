@@ -1,0 +1,6 @@
+android/**/* linguist-documentation=true
+ios/**/* linguist-documentation=true
+web/**/* linguist-documentation=true
+windows/**/* linguist-documentation=true
+macos/**/* linguist-documentation=true
+linux/**/* linguist-documentation=true
